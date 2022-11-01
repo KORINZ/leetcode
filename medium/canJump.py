@@ -20,4 +20,7 @@ class Solution:
 
 
 if __name__ == '__main__':
-    print(Solution().canJump(nums=[2, 5, 0, 0]))  #
+    print(Solution().canJump(nums=[2, 5, 0, 0])) # True since 2 -> 5 -> goal
+
+# Time Complexity: O(n)
+# Memory Complexity: O(1)
