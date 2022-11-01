@@ -17,8 +17,9 @@ class Solution:
                 nums.pop(pointer_index)
         return pointer_index
 
+
 if __name__ == '__main__':
-    print(Solution().removeDuplicates(nums=[0,0,1,1,1,2,2,3,3,4]))  # 5 duplicates: [0, 1, 1, 2, 3]
+    print(Solution().removeDuplicates(nums=[0, 0, 1, 1, 1, 2, 2, 3, 3, 4]))  # 5 duplicates: [0, 1, 1, 2, 3]
 
 # Time Complexity: O(n)
 # Memory Complexity: O(1)
