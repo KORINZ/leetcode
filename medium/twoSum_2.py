@@ -20,7 +20,7 @@ class Solution:
 
 
 if __name__ == '__main__':
-    print(Solution().twoSum_2(numbers=[2, 7, 11, 15], target=26))  # [2, 3] since 11+15=26
+    print(Solution().twoSum_2(numbers=[2, 7, 11, 15], target=26))  # [3, 4] since 11+15=26 (index starts from 1 instead of 0)
 
 # Time Complexity: O(n)
 # Memory Complexity: O(1)
