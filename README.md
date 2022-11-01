@@ -7,7 +7,7 @@
 </div>
 
 
-A collection of attempted problems from LeetCode ranging from easy to hard.
+A collection of attempted solutions to problems from LeetCode. Difficuties ranging from easy, medium to hard. Solved by Python 3.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
