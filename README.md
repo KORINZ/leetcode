@@ -9,6 +9,19 @@
 
 A collection of attempted solutions to problems from LeetCode. Difficuties ranging from easy, medium to hard. Solved by Python 3.
 
+## Arrays & Hashing
+- Two Sum (easy): twoSum(nums: List[int], target: int) -> List[int]
+- Valid Anagram (easy): isAnagram(s: str, t: str) -> bool
+
+## Two Pointers
+- Remove Duplicates from Sorted Array (easy): removeDuplicates(nums: List[int]) -> int
+- Two Sum II - Input Array Is Sorted (medium): twoSum_2(numbers: List[int], target: int) -> List[int]
+
+## Binary Search
+- Binary Search (easy): search(nums: List[int], target: int) -> int
+
+## Greedy
+- Jump Game (medium): canJump(nums: List[int]) -> bool
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
