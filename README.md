@@ -20,6 +20,9 @@ A collection of attempted solutions to problems from LeetCode. Difficuties rangi
 ## Binary Search
 - [Binary Search](https://leetcode.com/problems/binary-search/) (easy): search(nums: List[int], target: int) -> int
 
+## Stack
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/): isValid(s: str) -> bool
+
 ## Greedy
 - [Jump Game](https://leetcode.com/problems/jump-game/) (medium): canJump(nums: List[int]) -> bool
 
