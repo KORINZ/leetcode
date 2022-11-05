@@ -9,6 +9,22 @@
 
 A collection of attempted solutions to problems from LeetCode. Difficuties ranging from easy, medium to hard. Solved by Python 3.
 
+## Arrays & Hashing
+- [Two Sum](https://leetcode.com/problems/two-sum/): (easy): twoSum(nums: List[int], target: int) -> List[int]
+- [Valid Anagram](https://leetcode.com/problems/valid-anagram/) (easy): isAnagram(s: str, t: str) -> bool
+
+## Two Pointers
+- [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (easy): removeDuplicates(nums: List[int]) -> int
+- [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) (medium): twoSum_2(numbers: List[int], target: int) -> List[int]
+
+## Binary Search
+- [Binary Search](https://leetcode.com/problems/binary-search/) (easy): search(nums: List[int], target: int) -> int
+
+## Stack
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) (easy): isValid(s: str) -> bool
+
+## Greedy
+- [Jump Game](https://leetcode.com/problems/jump-game/) (medium): canJump(nums: List[int]) -> bool
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
