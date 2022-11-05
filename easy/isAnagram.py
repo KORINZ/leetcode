@@ -12,11 +12,15 @@ class Solution:
         else:
             return False
 
+    # Time Complexity: O(nlog(n))
+    # Memory Complexity: O(n)
+
+    # TODO Follow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
+
+    @staticmethod
+    def unicode_isAnagram(s: str, t: str) -> bool:
+        pass
+
 
 if __name__ == '__main__':
     print(Solution().isAnagram(s='listen', t='silent'))  # True
-
-# Time Complexity: O(nlog(n))
-# Memory Complexity: O(n)
-
-# Follow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
