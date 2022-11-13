@@ -29,6 +29,9 @@ A collection of attempted solutions to problems from LeetCode. Difficuties rangi
 ## Greedy
 - [Jump Game](https://leetcode.com/problems/jump-game/) (medium): canJump(nums: List[int]) -> bool
 
+## Math
+- [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) (easy): romanToInt(self, s: str) -> int
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
