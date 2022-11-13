@@ -33,7 +33,7 @@ A collection of attempted solutions to problems from LeetCode. Difficuties rangi
 ## Math
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) (easy): romanToInt(self, s: str) -> int
 
-##Bit Manipulation
+## Bit Manipulation
 - [Missing Number](https://leetcode.com/problems/missing-number/) (easy): missingNumber(nums: List[int]) -> int
 
 <!-- MARKDOWN LINKS & IMAGES -->
