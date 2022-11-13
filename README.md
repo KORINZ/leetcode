@@ -12,6 +12,7 @@ A collection of attempted solutions to problems from LeetCode. Difficuties rangi
 ## Arrays & Hashing
 - [Two Sum](https://leetcode.com/problems/two-sum/): (easy): twoSum(nums: List[int], target: int) -> List[int]
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/) (easy): isAnagram(s: str, t: str) -> bool
+- [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) (medium): longestConsecutive(nums: List[int]) -> int
 
 ## Two Pointers
 - [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (easy): removeDuplicates(nums: List[int]) -> int
