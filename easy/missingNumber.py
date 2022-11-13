@@ -14,9 +14,20 @@ class Solution:
             result += diff
         return result
 
+    # Time Complexity: O(n)
+    # Memory Complexity: O(1)
+
+    @staticmethod
+    def missingNumberWay2(nums: List[int]) -> int:
+        full_list = list(range(0, len(nums) + 1))
+        for number in full_list:
+            if number not in nums:
+                return number
+    # Time Complexity: O(n)
+    # Memory Complexity: O(n)
+
 
 if __name__ == '__main__':
-    print(Solution().missingNumber([9, 6, 4, 2, 3, 5, 7, 0, 1]))  # 8
-
-# Time Complexity: O(n)
-# Memory Complexity: O(1)
+    question_input = [9, 6, 4, 2, 3, 5, 7, 0, 1]
+    print(Solution().missingNumber(question_input))  # 8
+    print(Solution().missingNumberWay2(question_input))  # 8
