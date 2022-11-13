@@ -20,6 +20,7 @@ A collection of attempted solutions to problems from LeetCode. Difficuties rangi
 
 ## Sliding Windows
 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (easy): maxProfit(prices: List[int]) -> int
+- [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (hard): minWindow(s: str, t: str) -> str
 
 ## Binary Search
 - [Binary Search](https://leetcode.com/problems/binary-search/) (easy): search(nums: List[int], target: int) -> int
