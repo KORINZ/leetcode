@@ -33,6 +33,9 @@ A collection of attempted solutions to problems from LeetCode. Difficuties rangi
 ## Math
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) (easy): romanToInt(self, s: str) -> int
 
+## Bit Manipulation
+- [Missing Number](https://leetcode.com/problems/missing-number/) (easy): missingNumber(nums: List[int]) -> int
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
