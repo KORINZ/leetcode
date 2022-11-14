@@ -8,6 +8,9 @@ typically using all the original letters exactly once.
 class Solution:
     @staticmethod
     def isAnagram(s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
+        
         s_letters = [letter for letter in s].sort()
         t_letters = [letter for letter in t].sort()
         if s_letters == t_letters:
