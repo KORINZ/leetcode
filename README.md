@@ -7,7 +7,7 @@
 </div>
 
 
-A collection of attempted solutions to problems from LeetCode. Difficuties ranging from easy, medium to hard. Solved by Python 3.
+A collection of attempted solutions to problems from LeetCode. Difficulties range from easy to hard. Solved by Python 3.
 
 ## Arrays & Hashing
 - [Two Sum](https://leetcode.com/problems/two-sum/): (easy): twoSum(nums: List[int], target: int) -> List[int]
