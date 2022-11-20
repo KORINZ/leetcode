@@ -14,14 +14,14 @@ class Solution:
         visited = set()
         islands = 0
 
-        def bfs(r, c):
+        def bfs(r, c):  # breadth first search
             q = deque()
             visited.add((r, c))
             q.append((r, c))
 
             while q:
                 row, col = q.popleft()
-                directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
+                directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]  # right, left, up, down
 
                 for dr, dc in directions:
                     r, c = row + dr, col + dc
