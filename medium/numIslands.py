@@ -4,7 +4,7 @@ An island is surrounded by water and is formed by connecting adjacent lands hori
 You may assume all four edges of the grid are all surrounded by water.
 """
 from typing import List
-import collections
+from collections import deque
 
 
 class Solution:
@@ -14,9 +14,9 @@ class Solution:
         visited = set()
         islands = 0
 
-        def bfs(r, c):  # breadth first search
-            q = collections.deque()
-            visited.add(r, c)
+        def bfs(r, c):
+            q = deque()
+            visited.add((r, c))
             q.append((r, c))
 
             while q:
@@ -24,12 +24,18 @@ class Solution:
                 directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
 
                 for dr, dc in directions:
-                    pass
+                    r, c = row + dr, col + dc
+                    if r in range(rows) and c in range(cols) and grid[r][c] == '1' and (r, c) not in visited:
+                        q.append((r, c))
+                        visited.add((r, c))
 
         for r in range(rows):
             for c in range(cols):
-                bfs(r, c)
-                islands += 1
+
+                if grid[r][c] == "1" and (r, c) not in visited:
+                    bfs(r, c)
+                    islands += 1
+
         return islands
 
 
@@ -39,4 +45,4 @@ if __name__ == '__main__':
         ["1", "1", "0", "0", "0"],
         ["0", "0", "1", "0", "0"],
         ["0", "0", "0", "1", "1"]
-    ]))  # 3
+    ]))  # 3 islands
