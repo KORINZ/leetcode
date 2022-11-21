@@ -23,22 +23,47 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (easy): maxProfit(prices: List[int]) -> int
 - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (hard): minWindow(s: str, t: str) -> str
 
-## Binary Search
-- [Binary Search](https://leetcode.com/problems/binary-search/) (easy): search(nums: List[int], target: int) -> int
-
 ## Stack
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) (easy): isValid(s: str) -> bool
 
+## Binary Search
+- [Binary Search](https://leetcode.com/problems/binary-search/) (easy): search(nums: List[int], target: int) -> int
+
+
 ## Linked List
+- 
+
+## Trees
+- 
+
+## Tries
+- 
+
+## Heap/ Priority Queue
+- 
+
+## Backtracking
 - 
 
 ## Graphs
 - [Number of Islands](https://leetcode.com/problems/number-of-islands/) (medium): numIslands(self, grid: List[List[str]]) -> int
 
+## Advanced Graphs
+-
+
+## 1-D Dynamic Programming
+- 
+
+## 2-D Dynamic Programming
+- 
+
 ## Greedy
 - [Jump Game](https://leetcode.com/problems/jump-game/) (medium): canJump(nums: List[int]) -> bool
 
-## Math
+## Intervals
+- 
+
+## Math & Geometry
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) (easy): romanToInt(self, s: str) -> int
 
 ## Bit Manipulation
