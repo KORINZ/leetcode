@@ -29,6 +29,9 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 ## Stack
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) (easy): isValid(s: str) -> bool
 
+## Linked List
+- 
+
 ## Graphs
 - [Number of Islands](https://leetcode.com/problems/number-of-islands/) (medium): numIslands(self, grid: List[List[str]]) -> int
 
