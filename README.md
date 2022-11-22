@@ -52,7 +52,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 -
 
 ## 1-D Dynamic Programming
-- 
+- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (easy): climbStairs(n: int) -> int
 
 ## 2-D Dynamic Programming
 - 
