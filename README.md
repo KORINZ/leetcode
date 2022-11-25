@@ -1,6 +1,7 @@
 <a name="readme-top"></a>
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] [![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/problemset/all/) [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+
 <!-- PROJECT TITLE -->
 <div align="center">
 <h1 align="center">LeetCode Problem Solutions</h1>
@@ -46,13 +47,13 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - 
 
 ## Graphs
-- [Number of Islands](https://leetcode.com/problems/number-of-islands/) (medium): numIslands(self, grid: List[List[str]]) -> int
+- [Number of Islands](https://leetcode.com/problems/number-of-islands/) (medium): numIslands(grid: List[List[str]]) -> int
 
 ## Advanced Graphs
 -
 
 ## 1-D Dynamic Programming
-- 
+- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (easy): climbStairs(n: int) -> int
 
 ## 2-D Dynamic Programming
 - 
@@ -64,7 +65,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - 
 
 ## Math & Geometry
-- [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) (easy): romanToInt(self, s: str) -> int
+- [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) (easy): romanToInt(s: str) -> int
 
 ## Bit Manipulation
 - [Missing Number](https://leetcode.com/problems/missing-number/) (easy): missingNumber(nums: List[int]) -> int
