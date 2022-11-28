@@ -41,7 +41,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - 
 
 ## Heap/ Priority Queue
-- [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) (medium): kClosest(self, points: List[List[int]], k: int) -> List[List[int]]
+- [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) (medium): kClosest(points: List[List[int]], k: int) -> List[List[int]]
 
 ## Backtracking
 - 
