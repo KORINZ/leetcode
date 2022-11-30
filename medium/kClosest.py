@@ -9,7 +9,7 @@ import heapq
 
 
 class Solution:
-    def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
+    def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:  # NOQA
         min_heap = []
         for x, y in points:
             distance = x ** 2 + y ** 2

@@ -8,7 +8,7 @@ from typing import List
 
 class Solution:
     @staticmethod
-    def longestConsecutive(nums: List[int]) -> int:
+    def longestConsecutive(nums: List[int]) -> int:  # NOQA
         nums_set = set(nums)
         longest_seq = 0
 

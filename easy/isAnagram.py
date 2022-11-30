@@ -7,7 +7,7 @@ typically using all the original letters exactly once.
 
 class Solution:
     @staticmethod
-    def isAnagram(s: str, t: str) -> bool:
+    def isAnagram(s: str, t: str) -> bool:  # NOQA
         if len(s) != len(t):
             return False
         

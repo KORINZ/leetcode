@@ -11,7 +11,7 @@ from typing import List
 
 class Solution:
     @staticmethod
-    def twoSum_2(numbers: List[int], target: int) -> List[int]:
+    def twoSum_2(numbers: List[int], target: int) -> List[int]:  # NOQA
         l, r = 0, len(numbers) - 1
 
         for i in range(len(numbers)):

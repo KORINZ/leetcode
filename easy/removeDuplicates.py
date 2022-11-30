@@ -15,7 +15,7 @@ from typing import List
 
 class Solution:
     @staticmethod
-    def removeDuplicates(nums: List[int]) -> int:
+    def removeDuplicates(nums: List[int]) -> int:  # NOQA
         pointer_index = 1
         while pointer_index <= len(nums) - 1:
             if nums[pointer_index - 1] != nums[pointer_index]:

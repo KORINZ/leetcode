@@ -8,7 +8,7 @@ from typing import List
 
 class Solution:
     @staticmethod
-    def canJump(nums: List[int]) -> bool:
+    def canJump(nums: List[int]) -> bool:  # NOQA
         goal = len(nums) - 1
         for i in range(len(nums) - 1, -1, -1):  # starting from goal to the beginning
             if i + nums[i] >= goal:

@@ -9,7 +9,7 @@ from collections import deque
 
 class Solution:
     @staticmethod
-    def numIslands(grid: List[List[str]]) -> int:
+    def numIslands(grid: List[List[str]]) -> int:  # NOQA
         rows, cols = len(grid), len(grid[0])
         visited = set()
         islands = 0

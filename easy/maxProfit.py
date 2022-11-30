@@ -9,7 +9,7 @@ from typing import List
 
 class Solution:
     @staticmethod
-    def maxProfit(prices: List[int]) -> int:
+    def maxProfit(prices: List[int]) -> int:  # NOQA
         l, r = 0, 1
         max_profit = 0
 

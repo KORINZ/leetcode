@@ -11,7 +11,7 @@ Nested brackets, such as [(){}], are valid.
 
 class Solution:
     @staticmethod
-    def isValid(s: str) -> bool:
+    def isValid(s: str) -> bool:  # NOQA
 
         stack = []
         valid_set = {')': '(', '}': '{', ']': '['}

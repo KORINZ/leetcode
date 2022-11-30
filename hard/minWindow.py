@@ -9,7 +9,7 @@ s and t consist of uppercase and lowercase English letters.
 
 class Solution:
     @staticmethod
-    def minWindow(s: str, t: str) -> str:
+    def minWindow(s: str, t: str) -> str:  # NOQA
         pass
 
 

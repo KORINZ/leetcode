@@ -9,7 +9,7 @@ from collections import defaultdict
 
 class Solution:
     @staticmethod
-    def groupAnagrams(strs: List[str]) -> List[List[str]]:
+    def groupAnagrams(strs: List[str]) -> List[List[str]]:  # NOQA
         results = defaultdict(list)
 
         for word in strs:

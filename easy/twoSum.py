@@ -9,7 +9,7 @@ from typing import List
 
 class Solution:
     @staticmethod
-    def twoSum(nums: List[int], target: int) -> List[int]:
+    def twoSum(nums: List[int], target: int) -> List[int]:  # NOQA
         stored_values = {}
         for i, n in enumerate(nums):
             diff = target - n
@@ -21,7 +21,7 @@ class Solution:
     # Memory Complexity: O(n)
 
     @staticmethod
-    def twoSum_brute(nums: List[int], target: int) -> List[int]:
+    def twoSum_brute(nums: List[int], target: int) -> List[int]:  # NOQA
 
         for i, n in enumerate(nums):
             for j, m in enumerate(nums[i + 1:]):

@@ -7,7 +7,7 @@ from typing import List
 
 class Solution:
     @staticmethod
-    def missingNumber(nums: List[int]) -> int:
+    def missingNumber(nums: List[int]) -> int:  # NOQA
         result = len(nums)
         for i in range(0, len(nums)):
             diff = i - nums[i]
@@ -18,7 +18,7 @@ class Solution:
     # Memory Complexity: O(1)
 
     @staticmethod
-    def missingNumberWay2(nums: List[int]) -> int:
+    def missingNumberWay2(nums: List[int]) -> int:  # NOQA
         full_list = list(range(0, len(nums) + 1))
         for number in full_list:
             if number not in nums:
