@@ -14,32 +14,32 @@ class Solution:
         if t == "":
             return ""
 
-        countT, window = {}, {}
+        count_t, window = {}, {}
         for c in t:
-            countT[c] = 1 + countT.get(c, 0)
+            count_t[c] = 1 + count_t.get(c, 0)
 
-        have, need = 0, len(countT)
+        have, need = 0, len(count_t)
         res, res_len = [-1, -1], float('inf')
-        l = 0
+        left = 0
         for r in range(len(s)):
             c = s[r]
             window[c] = 1 + window.get(c, 0)
 
-            if c in countT and window[c] == countT[c]:
+            if c in count_t and window[c] == count_t[c]:
                 have += 1
 
             while have == need:
                 # update result
-                if (r - l + 1) < res_len:
-                    res = [l, r]
-                    res_len = r - l + 1
+                if (r - left + 1) < res_len:
+                    res = [left, r]
+                    res_len = r - left + 1
                 # pop from the left of window
-                window[s[l]] -= 1
-                if s[l] in countT and window[s[l]] < countT[s[l]]:
+                window[s[left]] -= 1
+                if s[left] in count_t and window[s[left]] < count_t[s[left]]:
                     have -= 1
-                l += 1
-        l, r = res
-        return s[l : r + 1] if res_len != float('inf') else ""
+                left += 1
+        left, r = res
+        return s[left: r + 1] if res_len != float('inf') else ""
 
 
 if __name__ == '__main__':
