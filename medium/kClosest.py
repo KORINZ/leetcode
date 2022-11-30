@@ -17,7 +17,7 @@ class Solution:
             min_heap.append([distance, x, y])
 
         heapq.heapify(min_heap)
-        res = [heapq.heappop(min_heap)[1:] for i in range(k)]
+        res = [heapq.heappop(min_heap)[1:] for _ in range(k)]
 
         return res
 
