@@ -25,7 +25,8 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (hard): minWindow(s: str, t: str) -> str
 
 ## Stack
-- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) (easy): isValid(s: str) -> bool
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) (easy): isValid(s: str) -> bool
+- [Simplify Path](https://leetcode.com/problems/simplify-path/) (medium): simplifyPath(path: str) -> str
 
 ## Binary Search
 - [Binary Search](https://leetcode.com/problems/binary-search/) (easy): search(nums: List[int], target: int) -> int
