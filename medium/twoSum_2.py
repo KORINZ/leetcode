@@ -13,15 +13,15 @@ from typing import List
 class Solution:
     @staticmethod
     def twoSum_2(numbers: List[int], target: int) -> List[int]:  # NOQA
-        l, r = 0, len(numbers) - 1
+        left, right = 0, len(numbers) - 1
 
         for i in range(len(numbers)):
-            if numbers[l] + numbers[r] < target:
-                l += 1
-            elif numbers[l] + numbers[r] > target:
-                r -= 1
+            if numbers[left] + numbers[right] < target:
+                left += 1
+            elif numbers[left] + numbers[right] > target:
+                right -= 1
             else:
-                return [l + 1, r + 1]
+                return [left + 1, right + 1]
 
 
 if __name__ == '__main__':
