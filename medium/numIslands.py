@@ -29,11 +29,11 @@ class Solution:
                         q.append((r, c))
                         visited.add((r, c))
 
-        for r in range(rows):
-            for c in range(cols):
+        for r_ in range(rows):
+            for c_ in range(cols):
 
-                if grid[r][c] == "1" and (r, c) not in visited:
-                    bfs(r, c)
+                if grid[r_][c_] == "1" and (r_, c_) not in visited:
+                    bfs(r_, c_)
                     islands += 1
 
         return islands
