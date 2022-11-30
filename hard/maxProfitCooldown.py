@@ -12,4 +12,11 @@ Note: You may not engage in multiple transactions simultaneously (i.e., you must
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        pass
+
+        dp = {}
+
+        def dfs(i, buying):
+            if i >= len(prices):
+                return 0
+            if (i, buying) in dp:
+                return dp[(i, buying)]
