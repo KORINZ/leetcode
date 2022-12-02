@@ -8,10 +8,12 @@ Find the maximum profit you can achieve. You may complete as many transactions a
 After you sell your stock, you cannot buy stock on the next day (i.e., cooldown one day).
 Note: You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again).
 """
+from typing import List
 
 
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+    @staticmethod
+    def maxProfit(prices: List[int]) -> int:
 
         dp = {}
 
@@ -20,3 +22,7 @@ class Solution:
                 return 0
             if (i, buying) in dp:
                 return dp[(i, buying)]
+
+
+if __name__ == '__main__':
+    pass
