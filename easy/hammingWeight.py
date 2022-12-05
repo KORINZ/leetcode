@@ -14,8 +14,13 @@ Therefore, in Example 3, the input represents the signed integer. -3.
 class Solution:
     @staticmethod
     def hammingWeight(n: int) -> int:
-        pass
+        res = 0
+
+        while n:
+            n &= n - 1
+            res += 1
+        return res
 
 
 if __name__ == '__main__':
-    print(Solution.hammingWeight(n=0o0000000000000000000000000001011))
+    print(Solution.hammingWeight(n=0o0000000000000000000000000001011))  # 3 since there is three "1"
