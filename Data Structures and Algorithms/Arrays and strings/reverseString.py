@@ -3,6 +3,7 @@ Write a function that reverses a string. The input string is given as an array o
 
 You must do this by modifying the input array in-place with O(1) extra memory.
 """
+# Two pointers
 from typing import List
 
 
@@ -12,5 +13,4 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
-        # Two pointers
         left, right = 0, len(s) - 1
