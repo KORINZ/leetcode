@@ -19,4 +19,26 @@ Return the sum of all the scores on the record after applying all the operations
 The test cases are generated such that
 the answer and all intermediate calculations fit in a 32-bit integer and that all operations are valid.
 """
+from typing import List
 
+
+class Solution:
+    @staticmethod
+    def calPoints(operations: List[str]) -> int:  # NOQA
+        stack = []
+
+        for n in operations:
+            if n == "+":
+                stack.append(stack[-1] + stack[-2])
+            elif n == "C":
+                stack.pop()
+            elif n == "D":
+                stack.append(stack[-1] * 2)
+            else:
+                stack.append(int(n))
+
+        return sum(stack)
+
+
+if __name__ == '__main__':
+    print(Solution.calPoints(operations=["5", "2", "C", "D", "+"]))  # 30
