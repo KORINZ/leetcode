@@ -14,3 +14,22 @@ Return k after placing the final result in the first k slots of nums.
 Do not allocate extra space for another array.
 You must do this by modifying the input array in-place with O(1) extra memory.
 """
+from typing import List
+
+
+class Solution:
+    @staticmethod
+    def removeElement(nums: List[int], val: int) -> int:  # NOQA
+
+        left = 0
+
+        while left <= len(nums) - 1:
+            if nums[left] == val:
+                nums.pop(left)
+            else:
+                left += 1
+        return left
+
+
+if __name__ == '__main__':
+    print(Solution.removeElement(nums=[0, 1, 2, 2, 3, 0, 4, 2], val=2))  # 5, b.c. nums = [0,1,4,0,3,_,_,_]
