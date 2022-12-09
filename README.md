@@ -27,6 +27,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 
 ## Stack
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) (easy): isValid(s: str) -> bool
+- [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) (easy): class MyStack
 - [Baseball Game](https://leetcode.com/problems/baseball-game/) (easy): calPoints(operations: List[str]) -> int
 - [Simplify Path](https://leetcode.com/problems/simplify-path/) (medium): simplifyPath(path: str) -> str
 - [Min Stack](https://leetcode.com/problems/min-stack/) (medium): class MinStack
