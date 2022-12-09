@@ -9,9 +9,25 @@ from typing import List
 
 class Solution:
     @staticmethod
+    def runningSum(nums: List[int]) -> List[int]:
+        for i in range(1, len(nums)):
+            nums[i] += nums[i - 1]
+
+        return nums
+
+    @staticmethod
     def minStartValue(nums: List[int]) -> int:
-        pass
+        nums = Solution.runningSum(nums)
+        smallest = min(nums)
+        if smallest >= 1:
+            return 1
+        else:
+            return abs(smallest) + 1
+
+    # Prefix total approach
+    # Time complexity: O(n)
+    # Space complexity: O(1)
 
 
 if __name__ == '__main__':
-    pass
+    print(Solution.minStartValue(nums=[-3, 2, -3, 4, 2]))  # 5
