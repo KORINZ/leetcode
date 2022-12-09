@@ -13,6 +13,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 ## Arrays & Hashing
 - [Two Sum](https://leetcode.com/problems/two-sum/): (easy): twoSum(nums: List[int], target: int) -> List[int]
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/) (easy): isAnagram(s: str, t: str) -> bool
+- [Remove Element](https://leetcode.com/problems/remove-element/) (easy): removeElement(nums: List[int], val: int) -> int
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams/) (medium): groupAnagrams(strs: List[str]) -> List[List[str]]
 - [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) (medium): longestConsecutive(nums: List[int]) -> int
 
@@ -26,7 +27,9 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 
 ## Stack
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) (easy): isValid(s: str) -> bool
+- [Baseball Game](https://leetcode.com/problems/baseball-game/) (easy): calPoints(operations: List[str]) -> int
 - [Simplify Path](https://leetcode.com/problems/simplify-path/) (medium): simplifyPath(path: str) -> str
+- [Min Stack](https://leetcode.com/problems/min-stack/) (medium): class MinStack
 
 ## Binary Search
 - [Binary Search](https://leetcode.com/problems/binary-search/) (easy): search(nums: List[int], target: int) -> int
