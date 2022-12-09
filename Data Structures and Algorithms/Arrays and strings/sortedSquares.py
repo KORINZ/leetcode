@@ -28,7 +28,7 @@ class Solution:
                 square = nums[right]
                 right -= 1
 
-            res[i] = square ** 2
+            res[i] = square ** 2  # O(1) time operation
 
         return res
 
