@@ -9,9 +9,9 @@ from typing import List
 class Solution:
     @staticmethod
     def runningSum(nums: List[int]) -> List[int]:
-        prefix = 0
+        prefix = nums[0]
 
-        for i, n in enumerate(nums):
+        for i, n in enumerate(nums[1:], start=1):
             nums[i] += prefix
             prefix += n
 
