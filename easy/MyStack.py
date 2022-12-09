@@ -16,6 +16,8 @@ You must use only standard operations of a queue, which means that only push to 
 size and is empty operations are valid.
 Depending on your language, the queue may not be supported natively.
 You may simulate a queue using a list or deque (double-ended queue) as long as you use only a queue's standard operations.
+
+Follow-up: Can you implement the stack using only one queue?
 """
 from collections import deque
 
@@ -23,19 +25,22 @@ from collections import deque
 class MyStack:
 
     def __init__(self):
-        pass
+        self.q = deque()
 
     def push(self, x: int) -> None:
-        pass
+        self.q.append(x)
 
     def pop(self) -> int:
-        pass
+        for i in range(len(self.q) - 1):
+            self.push(self.q.popleft())
+
+        return self.q.popleft()
 
     def top(self) -> int:
-        pass
+        return self.q[-1]
 
     def empty(self) -> bool:
-        pass
+        return len(self.q) == 0
 
 # Your MyStack object will be instantiated and called as such:
 # obj = MyStack()
