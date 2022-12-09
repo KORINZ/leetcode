@@ -10,8 +10,23 @@ from typing import List
 class Solution:
     @staticmethod
     def findMaxAverage(nums: List[int], k: int) -> float:
-        pass
+        l, r = 0, k
+        ans = curr = sum(nums[l:k])
 
+        while r < len(nums):
+            curr += nums[r] - nums[l]
+
+            if curr > ans:
+                ans = curr
+
+            l += 1
+            r += 1
+
+        return ans / k
+
+
+# Time complexity : O(n)
+# Space complexity : O(1)
 
 if __name__ == '__main__':
-    pass
+    print(Solution.findMaxAverage(nums=[1, 12, -5, -6, 50, 3], k=4))
