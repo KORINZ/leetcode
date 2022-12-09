@@ -19,4 +19,4 @@ class Solution:
 
 
 if __name__ == '__main__':
-    print(Solution.runningSum(nums=[1, 2, 3, 4]))
+    print(Solution.runningSum(nums=[1, 2, 3, 4]))  # [1, 3, 6, 10]
