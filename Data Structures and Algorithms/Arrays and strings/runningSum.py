@@ -9,8 +9,14 @@ from typing import List
 class Solution:
     @staticmethod
     def runningSum(nums: List[int]) -> List[int]:
-        pass
+        prefix = 0
+
+        for i, n in enumerate(nums):
+            nums[i] += prefix
+            prefix += n
+
+        return nums
 
 
 if __name__ == '__main__':
-    pass
+    print(Solution.runningSum(nums=[1, 2, 3, 4]))
