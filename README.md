@@ -36,7 +36,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 
 
 ## Linked List
-- 
+- [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (easy): reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]
 
 ## Trees
 - 
