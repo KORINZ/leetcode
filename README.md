@@ -76,6 +76,9 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - [Missing Number](https://leetcode.com/problems/missing-number/) (easy): missingNumber(nums: List[int]) -> int
 - [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) (easy): hammingWeight(n: int) -> int
 
+## Others
+- [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) (easy): fib(self, n: int) -> int
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
