@@ -71,13 +71,13 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 
 ## Math & Geometry
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) (easy): romanToInt(s: str) -> int
+- [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) (easy): fib(self, n: int) -> int
+
 
 ## Bit Manipulation
 - [Missing Number](https://leetcode.com/problems/missing-number/) (easy): missingNumber(nums: List[int]) -> int
 - [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) (easy): hammingWeight(n: int) -> int
 
-## Others
-- [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) (easy): fib(self, n: int) -> int
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
