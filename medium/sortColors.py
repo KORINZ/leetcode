@@ -16,7 +16,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        # Quick Sort
+        # Quick Sort (one pass)
         left, right = 0, len(nums) - 1
         i = 0
 
