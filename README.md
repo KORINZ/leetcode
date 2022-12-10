@@ -16,6 +16,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - [Remove Element](https://leetcode.com/problems/remove-element/) (easy): removeElement(nums: List[int], val: int) -> int
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams/) (medium): groupAnagrams(strs: List[str]) -> List[List[str]]
 - [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) (medium): longestConsecutive(nums: List[int]) -> int
+- [Sort Colors](https://leetcode.com/problems/sort-colors/) (medium): sortColors(self, nums: List[int]) -> None
 
 ## Two Pointers
 - [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (easy): removeDuplicates(nums: List[int]) -> int
