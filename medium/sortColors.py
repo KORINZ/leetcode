@@ -16,7 +16,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        # Bucket Sort
+        # Quick Sort
         left, right = 0, len(nums) - 1
         i = 0
 
