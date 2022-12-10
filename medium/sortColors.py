@@ -11,8 +11,24 @@ from typing import List
 
 
 class Solution:
-    def sortColors(self, nums: List[int]) -> None:
+    @staticmethod
+    def sortColors(nums: List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
         """
-        pass
+        # Bucket Sort
+        left, right = 0, len(nums) - 1
+        i = 0
+
+        def swap(a: int, b: int) -> None:
+            nums[a], nums[b] = nums[b], nums[a]
+
+        while i <= right:
+            if nums[i] == 0:
+                swap(left, i)
+                left += 1
+            elif nums[i] == 2:
+                swap(i, right)
+                right -= 1
+                i -= 1
+            i += 1
