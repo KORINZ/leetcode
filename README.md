@@ -40,7 +40,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (easy): reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]
 
 ## Trees
-- 
+- [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) (easy): searchBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]
 
 ## Tries
 - 
