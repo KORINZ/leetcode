@@ -16,5 +16,12 @@ class TreeNode:
 
 
 class Solution:
+
     def searchBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
-        pass
+        if root is None or val == root.val:
+            return root
+
+        if val < root.val:
+            return self.searchBST(root.left, val)
+        else:  # val > root.val
+            return self.searchBST(root.right, val)
