@@ -21,10 +21,10 @@ from collections import Counter
 class Solution:
     @staticmethod
     def findWinners(matches: List[List[int]]) -> List[List[int]]:
-        winner_dict = set(i[0] for i in matches)
+        winner_set = set(i[0] for i in matches)
         loser_dict = Counter(i[1] for i in matches)
 
-        ans_0 = [key for key in winner_dict if key not in loser_dict]
+        ans_0 = [key for key in winner_set if key not in loser_dict]
         ans_1 = [key for key in loser_dict if loser_dict[key] == 1]
 
         ans_0.sort()
