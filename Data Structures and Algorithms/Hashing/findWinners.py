@@ -32,6 +32,9 @@ class Solution:
         return [ans_0, ans_1]
 
 
+# Time complexity : O(nlog(n))
+# Space complexity : O(n)
+
 if __name__ == '__main__':
     print(Solution.findWinners(
         matches=[[1, 3], [2, 3], [3, 6], [5, 6], [5, 7], [4, 5], [4, 8], [4, 9], [10, 4], [10, 9]]))
