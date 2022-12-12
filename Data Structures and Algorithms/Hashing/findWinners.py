@@ -14,3 +14,24 @@ Note:
 You should only consider the players that have played at least one match.
 The testcases will be generated such that no two matches will have the same outcome.
 """
+from typing import List
+from collections import Counter
+
+
+class Solution:
+    @staticmethod
+    def findWinners(matches: List[List[int]]) -> List[List[int]]:
+        winner_dict = set(i[0] for i in matches)
+        loser_dict = Counter(i[1] for i in matches)
+
+        ans_0 = [key for key in winner_dict if key not in loser_dict]
+        ans_1 = [key for key in loser_dict if loser_dict[key] == 1]
+
+        ans_0.sort()
+        ans_1.sort()
+        return [ans_0, ans_1]
+
+
+if __name__ == '__main__':
+    print(Solution.findWinners(
+        matches=[[1, 3], [2, 3], [3, 6], [5, 6], [5, 7], [4, 5], [4, 8], [4, 9], [10, 4], [10, 9]]))
