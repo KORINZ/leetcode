@@ -15,5 +15,8 @@ class Solution:
         return len(sentence) == 26
 
 
+# Time complexity : O(n)
+# Space complexity : O(1)
+
 if __name__ == '__main__':
     print(Solution.checkIfPangram("thequickbrownfoxjumpsoverthelazydog"))  # True
