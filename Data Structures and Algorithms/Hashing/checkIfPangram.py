@@ -5,3 +5,15 @@ A pangram is a sentence where every letter of the English alphabet appears at le
 Given a string sentence containing only lowercase English letters,
 return true if sentence is a pangram, or false otherwise.
 """
+
+
+class Solution:
+    @staticmethod
+    def checkIfPangram(sentence: str) -> bool:
+        sentence = set(sentence)
+
+        return len(sentence) == 26
+
+
+if __name__ == '__main__':
+    print(Solution.checkIfPangram("thequickbrownfoxjumpsoverthelazydog"))  # True
