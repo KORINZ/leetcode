@@ -54,6 +54,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - 
 
 ## Graphs
+- [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) (medium): equalPairs(self, grid: List[List[int]]) -> int
 - [Number of Islands](https://leetcode.com/problems/number-of-islands/) (medium): numIslands(grid: List[List[str]]) -> int
 
 ## Advanced Graphs
