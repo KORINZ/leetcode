@@ -6,3 +6,20 @@ Each character in stones is a type of stone you have. You want to know how many 
 
 Letters are case-sensitive, so "a" is considered a different type of stone from "A".
 """
+
+
+class Solution:
+    @staticmethod
+    def numJewelsInStones(jewels: str, stones: str) -> int:
+        jewels = set(jewels)
+
+        ans = sum(i in jewels for i in stones)  # the generator represents boolean values
+
+        return ans
+
+
+# Time complexity : O(m+n)
+# Space complexity : O(1) (when not considering the input)
+
+if __name__ == '__main__':
+    print(Solution.numJewelsInStones(jewels="aA", stones="aAAbbbb"))  # 3
