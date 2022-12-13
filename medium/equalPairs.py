@@ -6,12 +6,35 @@ return the number of pairs (ri, cj) such that row ri and column cj are equal.
 A row and column pair is considered equal if they contain the same elements in the same order (i.e., an equal array).
 """
 from typing import List
+from collections import defaultdict
 
 
 class Solution:
     @staticmethod
     def equalPairs(grid: List[List[int]]) -> int:
-        pass
+
+        # rows
+        dic_row = defaultdict(int)
+        for row in grid:
+            dic_row[tuple(row)] += 1
+
+        # columns
+        dic_col = defaultdict(int)
+        for col in range(len(grid[0])):
+            curr_col = []
+            for row in range(len(grid)):
+                curr_col.append(grid[row][col])
+
+            dic_col[tuple(curr_col)] += 1
+
+        ans = 0
+        for arr in dic_row:
+            ans += dic_row[arr] * dic_col[arr]
+
+        return ans
+
+    # Time complexity : O(n^2)
+    # Space complexity : O(n^2)
 
 
 if __name__ == '__main__':
