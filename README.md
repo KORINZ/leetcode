@@ -17,6 +17,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams/) (medium): groupAnagrams(strs: List[str]) -> List[List[str]]
 - [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) (medium): longestConsecutive(nums: List[int]) -> int
 - [Sort Colors](https://leetcode.com/problems/sort-colors/) (medium): sortColors(self, nums: List[int]) -> None
+- [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) (medium): maximumSum(nums: List[int]) -> int
 
 ## Two Pointers
 - [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (easy): removeDuplicates(nums: List[int]) -> int
