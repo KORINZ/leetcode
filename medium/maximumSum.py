@@ -8,12 +8,32 @@ you can obtain over all possible indices i and j that satisfy the conditions.
 Return -1 if there are no two numbers that satisfy the conditions.
 """
 from typing import List
+from collections import defaultdict
 
 
 class Solution:
     @staticmethod
     def maximumSum(nums: List[int]) -> int:
-        pass
+        def get_digit_sum(num: int):
+            digit_sum_ = 0
+            while num:
+                digit_sum_ += num % 10
+                num //= 10
+
+            return digit_sum_
+
+        nums_dict = defaultdict(int)
+        ans = -1
+        for n in nums:
+            digit_sum = get_digit_sum(n)
+            if digit_sum in nums_dict:
+                ans = max(ans, n + nums_dict[digit_sum])
+            nums_dict[digit_sum] = max(nums_dict[digit_sum], n)
+
+        return ans
+
+    # Time complexity : O(n)
+    # Space complexity : O(n)
 
 
 if __name__ == '__main__':
