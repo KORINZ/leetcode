@@ -49,6 +49,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - 
 
 ## Heap/ Priority Queue
+- [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) (easy): lastStoneWeight(self, stones: List[int]) -> int
 - [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) (medium): kClosest(points: List[List[int]], k: int) -> List[List[int]]
 
 ## Backtracking
