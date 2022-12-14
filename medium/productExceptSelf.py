@@ -16,8 +16,23 @@ from typing import List
 class Solution:
     @staticmethod
     def productExceptSelf(nums: List[int]) -> List[int]:
-        pass
+        ans = [0] * len(nums)
 
+        prefix = 1
+        for i in range(len(nums)):
+            ans[i] = prefix
+            prefix *= nums[i]
+
+        postfix = 1
+        for i in reversed(range(len(nums))):
+            ans[i] *= postfix
+            postfix *= nums[i]
+
+        return ans
+
+
+# Time complexity : O(N)
+# Space complexity : O(1)
 
 if __name__ == '__main__':
     print(Solution.productExceptSelf(nums=[1, 2, 3, 4]))  # [24,12,8,6]
