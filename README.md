@@ -16,8 +16,8 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - [Remove Element](https://leetcode.com/problems/remove-element/) (easy): removeElement(nums: List[int], val: int) -> int
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams/) (medium): groupAnagrams(strs: List[str]) -> List[List[str]]
 - [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) (medium): longestConsecutive(nums: List[int]) -> int
-- [Sort Colors](https://leetcode.com/problems/sort-colors/) (medium): sortColors(nums: List[int]) -> None
-- [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (medium): productExceptSelf(nums: List[int]) -> List[int]
+- [Sort Colors](https://leetcode.com/problems/sort-colors/) (medium): sortColors(self, nums: List[int]) -> None
+- [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (medium): productExceptSelf(self, nums: List[int]) -> List[int]
 - [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) (medium): maximumSum(nums: List[int]) -> int
 
 ## Two Pointers
@@ -40,23 +40,23 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 
 
 ## Linked List
-- [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (easy): reverseList(head: Optional[ListNode]) -> Optional[ListNode]
+- [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (easy): reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]
 
 ## Trees
-- [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) (easy): searchBST(root: Optional[TreeNode], val: int) -> Optional[TreeNode]
+- [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) (easy): searchBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]
 
 ## Tries
 - 
 
 ## Heap/ Priority Queue
-- [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) (easy): lastStoneWeight(stones: List[int]) -> int
+- [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) (easy): lastStoneWeight(self, stones: List[int]) -> int
 - [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) (medium): kClosest(points: List[List[int]], k: int) -> List[List[int]]
 
 ## Backtracking
 - 
 
 ## Graphs
-- [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) (medium): equalPairs(grid: List[List[int]]) -> int
+- [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) (medium): equalPairs(self, grid: List[List[int]]) -> int
 - [Number of Islands](https://leetcode.com/problems/number-of-islands/) (medium): numIslands(grid: List[List[str]]) -> int
 
 ## Advanced Graphs
@@ -70,14 +70,13 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 
 ## Greedy
 - [Jump Game](https://leetcode.com/problems/jump-game/) (medium): canJump(nums: List[int]) -> bool
-- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (medium): maxSubArray(nums: List[int]) -> int
 
 ## Intervals
 - 
 
 ## Math & Geometry
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) (easy): romanToInt(s: str) -> int
-- [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) (easy): fib(n: int) -> int
+- [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) (easy): fib(self, n: int) -> int
 
 
 ## Bit Manipulation
