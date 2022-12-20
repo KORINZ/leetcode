@@ -23,6 +23,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 ## Two Pointers
 - [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (easy): removeDuplicates(nums: List[int]) -> int
 - [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) (medium): twoSum_2(numbers: List[int], target: int) -> List[int]
+- [3Sum](https://leetcode.com/problems/3sum/) (medium): threeSum(nums: List[int]) -> List[List[int]]
 
 ## Sliding Windows
 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (easy): maxProfit(prices: List[int]) -> int
