@@ -35,6 +35,9 @@ class Solution:
         return res
 
 
+# Time Complexity: O(n^2)
+# Space Complexity: O(1)
+
 if __name__ == '__main__':
     print(Solution.threeSum(nums=[-1, 0, 1, 2, -1, -4]))  # [[-1,-1,2],[-1,0,1]]
     # Explanation:
