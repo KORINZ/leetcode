@@ -19,6 +19,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - [Sort Colors](https://leetcode.com/problems/sort-colors/) (medium): sortColors(self, nums: List[int]) -> None
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (medium): productExceptSelf(self, nums: List[int]) -> List[int]
 - [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) (medium): maximumSum(nums: List[int]) -> int
+- [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) (medium): isValidSudoku(self, board: List[List[str]]) -> bool
 
 ## Two Pointers
 - [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (easy): removeDuplicates(nums: List[int]) -> int
