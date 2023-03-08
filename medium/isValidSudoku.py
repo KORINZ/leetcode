@@ -32,4 +32,4 @@ if __name__ == '__main__':
                    [".", "6", ".", ".", ".", ".", "2", "8", "."],
                    [".", ".", ".", "4", "1", "9", ".", ".", "5"],
                    [".", ".", ".", ".", "8", ".", ".", "7", "9"]]
-    print(Solution.isValidSudoku(board))
+    print(Solution.isValidSudoku(input_board))
