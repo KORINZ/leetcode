@@ -55,7 +55,7 @@ A collection of attempted solutions to problems from LeetCode. Difficulties rang
 - [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) (medium): kClosest(points: List[List[int]], k: int) -> List[List[int]]
 
 ## Backtracking
-- 
+- [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) (hard): solveSudoku(self, board: List[List[str]]) -> None
 
 ## Graphs
 - [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) (medium): equalPairs(self, grid: List[List[int]]) -> int
