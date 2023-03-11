@@ -40,8 +40,10 @@ class Solution:
             boxes[(r // 3, c // 3)].remove(num)
 
         def move_to_next_cell(r: int, c: int) -> Tuple[int, int]:
+            # Move to next column
             if c < 8:
                 new_r, new_c = r, c + 1
+            # Move to next row, reset column index
             else:
                 new_r, new_c = r + 1, 0
             return new_r, new_c
