@@ -65,6 +65,7 @@ class Solution:
                     else:
                         remove_number_in_cell(r, c, num)
 
+            # The sudoku is not solvable
             return False
 
         backtrack(0, 0)
