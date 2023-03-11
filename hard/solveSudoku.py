@@ -13,13 +13,12 @@ class Solution:
         boxes = defaultdict(set)
 
         # Place existing numbers to the gird
-        for r in range(9):
-            for c in range(9):
-                val = board[r][c]
-                if board[r][c] != ".":
-                    rows[r].add(val)
-                    cols[c].add(val)
-                    boxes[(r // 3, c // 3)].add(val)
+        for row in range(9):
+            for col in range(9):
+                if board[row][col] != ".":
+                    rows[row].add(board[row][col])
+                    cols[col].add(board[row][col])
+                    boxes[(row // 3, col // 3)].add(board[row][col])
 
         # Check if a number can be placed according to the constraints
         def can_place_number(r: int, c: int, num: str) -> bool:
@@ -72,15 +71,15 @@ class Solution:
 
 
 if __name__ == '__main__':
-    board = [["5", "3", ".", ".", "7", ".", ".", ".", "."],
-             ["6", ".", ".", "1", "9", "5", ".", ".", "."],
-             [".", "9", "8", ".", ".", ".", ".", "6", "."],
-             ["8", ".", ".", ".", "6", ".", ".", ".", "3"],
-             ["4", ".", ".", "8", ".", "3", ".", ".", "1"],
-             ["7", ".", ".", ".", "2", ".", ".", ".", "6"],
-             [".", "6", ".", ".", ".", ".", "2", "8", "."],
-             [".", ".", ".", "4", "1", "9", ".", ".", "5"],
-             [".", ".", ".", ".", "8", ".", ".", "7", "9"]]
-    Solution.solveSudoku(board)
-    for row in board:
-        print(row)
+    input_board = [["5", "3", ".", ".", "7", ".", ".", ".", "."],
+                   ["6", ".", ".", "1", "9", "5", ".", ".", "."],
+                   [".", "9", "8", ".", ".", ".", ".", "6", "."],
+                   ["8", ".", ".", ".", "6", ".", ".", ".", "3"],
+                   ["4", ".", ".", "8", ".", "3", ".", ".", "1"],
+                   ["7", ".", ".", ".", "2", ".", ".", ".", "6"],
+                   [".", "6", ".", ".", ".", ".", "2", "8", "."],
+                   [".", ".", ".", "4", "1", "9", ".", ".", "5"],
+                   [".", ".", ".", ".", "8", ".", ".", "7", "9"]]
+    Solution.solveSudoku(input_board)
+    for arr in input_board:
+        print(arr)
