@@ -48,8 +48,8 @@ class Solution:
             return new_r, new_c
 
         def backtrack(r: int, c: int) -> bool:
-            # Base case: reached last row + 1 and column has been reset to 0
-            if r > 8 and c == 0:
+            # Base case: reached last row + 1
+            if r > 8:
                 return True
 
             # If a number already existed in the cell, move to the next cell
