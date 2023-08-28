@@ -5,12 +5,12 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 """
 
-from typing import List
+from typing import List, Union
 
 
 class Solution:
     @staticmethod
-    def twoSum(nums: List[int], target: int) -> List[int]:  # NOQA
+    def twoSum(nums: List[int], target: int) -> Union[List[int], None]:
         stored_values = {}
         for i, n in enumerate(nums):
             diff = target - n
@@ -22,7 +22,7 @@ class Solution:
     # Memory Complexity: O(n)
 
     @staticmethod
-    def twoSum_brute(nums: List[int], target: int) -> List[int]:  # NOQA
+    def twoSum_brute(nums: List[int], target: int) -> Union[List[int], None]:
 
         for i, n in enumerate(nums):
             for j, m in enumerate(nums[i + 1:]):
@@ -35,5 +35,7 @@ class Solution:
 
 
 if __name__ == '__main__':
-    print(Solution().twoSum(nums=[2, 7, 11, 15], target=26))  # [2, 3] since 11+15=26
-    print(Solution().twoSum_brute(nums=[2, 7, 11, 15], target=26))  # [2, 3] since 11+15=26
+    # [2, 3] since 11+15=26
+    print(Solution().twoSum(nums=[2, 7, 11, 15], target=26))
+    # [2, 3] since 11+15=26
+    print(Solution().twoSum_brute(nums=[2, 7, 11, 15], target=26))
